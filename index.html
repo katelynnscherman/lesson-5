@@ -7,33 +7,46 @@
         <meta http-equiv="X-UA-compatible" content="IE=Edge">
 <!--links to css and fonts-->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/framework.css">
+    </head>
+    <body>
+       
+        <div class='row'> 
+            <div class='col-12 border'>
+                <header id="header">
+           
+                <h1>Web Ninja</h1>
         
+                </header>
+            
+            </div>
         
-         <title>Assignment #1</title>
+        </div>
+<!--End Header-->
+         <div class='row'> 
+            <div class='col-12 border'>
+              <nav id='nav'>
+                    <ul class='button-wrap'>
+                        <button>Schedule</button>
+                        <button>CSS</button>
+                        <button>HTML</button>
+                        <button>Responsive Design</button>
+                    </ul>          
+                </nav>
+           </div>
         
-   </head>
-        <body>
-        <div id='container'>
-        <header id="header">
-            <h1>Web Ninja</h1>
-        </header>
-
-        <nav id="nav">
-            <ul class='button-wrap'>
-                <button>Schedule</button>
-                <button>CSS</button>
-                <button>HTML</button>
-                <button>Responsive Design</button>
-            </ul>          
-        </nav>
-        
-            <div id='middle-wrapper'>
-                <div id='middle-wrapper-width'>
-                    <div id='main-content-wrapper'>
-                        <div class='side-by-side'>
-                            <section class='image-content'>
-                                <img src='images/568ac840810f6.image.jpg'>
+      </div>
+<!--End Menu-->
+                
+            <div class='row'>
+            <div class='col-8 border'>
+              <div id='main-content-wrapper'>
+                <div class='side-by-side'>
+                     <section class='image-content'>
+                            
+                         
+                         
+                         <img src='images/568ac840810f6.image.jpg'>
                                 <h4>
                                 <a href='https:google.com'>
                                     katelynn scherman</a>
@@ -56,8 +69,10 @@
                         </section>
                     
                     </div>
+                </div>
                 <!--end main content wrapper-->
-                    <div id='aside-content-wrappper'>
+                <div class='col-4 border'>
+                <div id='aside-content-wrappper'>
                     <aside id='aside-right'>
                         <h3>latest work</h3>
                         <ul id="latest-work">
@@ -71,23 +86,30 @@
                   </aside>
              </div>
                 <!--end of aside content wrapper-->
-                   
-                </div> 
-                  <!--end max width-->
-                  </div>
+        </div> 
+            <!--end max width-->
+     </div>
             <!-- End of middle-wrapper-->
         
-            <div id='favorite-sites'>
-            <ul>
-             <li><img src='images/fbook.png'></li>
-            <li><img src='images/gplus.png'></li>
-            <li><img src='images/twitter.png'></li>    
-        </ul>
-            
-     </div>
-            
-     <footer><h1>footy</h1></footer>           
- </div>
+ <div id='favorite-sites' class='row'>
+         
+         <div class='col-4 border'>
+             <img src='images/fbook.png'>
+        </div>
+        <div class='col-4 border'>
+             <img src='images/gplus.png'>
+        </div>
+        <div class='col-4 border'>
+             <img src='images/twitter.png'>  
+        </div>
+        
+  </div>
+     <div class='row'> 
+         <div class='col-12 border'>
+             <footer><h1>footy</h1></footer>
+         </div>
+    </div>
+
 <!-- End of container-->
     <script src="js/main.js"> </script> 
     </body>
