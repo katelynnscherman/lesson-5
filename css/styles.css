@@ -11,7 +11,6 @@ body {
     color:#AB92E8;
 }
 #header {
-    width:100%;
     background-color:none;
     min-height: 80px;
 }
@@ -25,26 +24,25 @@ body {
 }
 
 #nav {
-    width:100%;
-    background-color:lightcyan;
+     background-color:lightcyan;
     min-height: 80px;
     font-family:'lato', sans-serif;
     height: auto;
 }
 #nav > ul {
     text-align: center;
-    padding: 0;
+    padding: 15px 0 15px 0;
     margin: 0;
-    transform: translateY(50%);
-}
+  }
 
 #nav > ul > button {
-    min-width:120px;
+    min-width:178px;
     color:#AB92E8;
     background-color:black;
     border:none;
     padding: 15px 32px;
     transition: background-color .25s;
+    border-bottom: 2px solid lightcyan;
 }
 #nav > ul > button:hover {
    background-color:darkturquoise;
@@ -61,6 +59,7 @@ body {
 
 }
 */
+/*
 #middle-wrapper-width {
     display:flex;
     font-family: 'lato', sams-serif;
@@ -70,15 +69,15 @@ body {
 #middle-wrapper{
     
 }
+*/
 .side-by-side{
-    display:flex;
     
 }
 
 #main-content-wrapper .image-content {
     text-align:center;
-    width:50%;
-    margin-top:50px;
+    margin:0 auto;
+     margin-top:50px;
 }
 
 .image-content > img { 
@@ -101,8 +100,6 @@ body {
   }
 
 #main-content-wrapper article {
-    width:50%;
-    margin-top:100px;
 }
 
 #main-content-wrapper article h2 {
@@ -126,8 +123,8 @@ body {
 
 #aside-content-wrapper{
     background-color:white;
-    width:35%;
     font-family: 'lato', sans-serif;
+    margin-top:50px;
 }
 
 #aside-right {
@@ -166,6 +163,7 @@ body {
     background-image: url(image/computers.jpeg);
     border-top:5px lightcyan solid;
     border-bottom:5px lightcyan solid;
+    text-align: center;
     
 }
 
@@ -190,5 +188,10 @@ footer >h1 {
     margin:0;
     transform: translateY(50%)
     
+}
+ 
+.max-width {
+    margin:0 auto;
+    max-width:960px;
 }
 

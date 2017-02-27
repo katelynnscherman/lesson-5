@@ -14,9 +14,11 @@ green blue light: #BBFFB8
     box-sizing: border-box;
 }
 
+/*
 .border{
     Border: 1px solid blue !important;
 }
+*/
 
 .image-content > img {
     max-width: 200px;
@@ -60,4 +62,23 @@ green blue light: #BBFFB8
 }
 .col-12 {
     width: 100%;
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .col-1,.c0l-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 { flex:1;
+        
+    }
+}
+
+
+@media (max-width: 480px) {
+    .row {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .col-1,.c0l-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 { width:100%;
+    }
 }
